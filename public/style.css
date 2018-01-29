@@ -1,0 +1,72 @@
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -333px;
+  margin-left: -250px;
+  height: 666px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  z-index: 0;
+}
+
+.title1 {
+  margin-top: 10px;
+  font-size: 35px;
+  font-weight: 400
+}
+
+.title2 {
+  color: grey;
+  font-weight: 100;
+  margin-bottom: 8px
+}
+
+.title3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 30px
+}
+
+.plainText {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.box {
+  margin: 5%;
+}
+
+.name {
+  margin-top: 55px
+}
+
+/* Mobile compatibility */
+
+@media only screen and (max-width: 480px) {
+  .back {
+    background-image: none;
+  }
+  
+  .app {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    box-shadow: none;
+    background-color: white;
+    z-index: 0;
+  }
+  
+  .title3 {
+    font-size: 22px;
+  }
+  
+  .plainText {
+    font-size: 11px;
+  }
+}
